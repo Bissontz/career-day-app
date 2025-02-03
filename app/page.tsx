@@ -4,25 +4,25 @@ const Home = () => {
     return (
         <main id="content-main">
             <h1>About Me</h1>
-            <p>My name is John Bissontz and I've worked as a software developer for about 4 years, but I've always LOVED computers.
+            <p>My name is John Bissontz and I&apos;ve worked as a software developer for about 4 years, but I&apos;ve always LOVED computers.
                 I have two boys that go to Mars Elementary just like all of you.</p>
             <h1>What is a Software Developer?</h1>
             <p>A software developer is someone who creates computer programs. 
                 They are like a builder, but instead of building houses, roads, bridges, or offices, they build things on a computer. 
                 We use special instructions that a computer can understand called code to make websites, apps, and even games work. 
-                Computers don't understand normal language like we do, they use a language called binary to talk. 
+                Computers don&apos;t understand normal language like we do, they use a language called binary to talk. 
                 Binary is a bunch of ones and zeros in a certain order that mean different things.</p>
             <h1>What do I like about my job?</h1>
             <p>There are many things that I like about my job. Some of them are:</p>
             <ul id="likes-list">
                 <li>I get to work remotely, which means I usually get to stay home and hang out with my cats while I work. But I can actually work from anywhere there is an internet connection.</li>
-                <li>I get to build things that can help people in many different ways. I've worked on websites for the US government, medical robots that help give medicine, and even games!</li>
-                <li>I'm always learning new things! There are lots of different technologies out there that need different types of software, so it never gets boring.</li>
+                <li>I get to build things that can help people in many different ways. I&apos;ve worked on projects for the US government, medical robots that help give medicine, and even games!</li>
+                <li>I&apos;m always learning new things! There are lots of different technologies out there that need different types of software, so it never gets boring.</li>
                 <li>I love puzzles, and coding is just like solving a big puzzle. I get to figure out how different pieces can be used to solve a bigger problem.</li>
             </ul>
             <h1>Where can you go learn to code?</h1>
             <p>There are many places where you can learn to code. 
-                I've been told there is a few that you already use at school during your STEM/STEAM classes like ScratchJr, Code.org, and Code Builder in Minecraft Education Edition.
+                I&apos;ve been told there is a few that you already use at school during your STEM/STEAM classes like ScratchJr, Code.org, and Code Builder in Minecraft Education Edition.
                 There is even more places to learn to code, like these:</p>
             <ul id="learn-list">
             <li><a href="https://blockly.games/" target="_blank"><u>Blockly Games</u></a> - Learn computer programming skills with fun games.</li>
