@@ -1,101 +1,42 @@
 import Image from "next/image";
+import React from "react";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+const Home = () => {
+    return (
+        <main id="content-main">
+            <h1>About Me</h1>
+            <p>My name is John Bissontz and I've worked as a software developer for about 4 years, but I've always LOVED computers.
+                I have two boys that go to Mars Elementary just like all of you.</p>
+            <h1>What is a Software Developer?</h1>
+            <p>A software developer is someone who creates computer programs. 
+                They are like a builder, but instead of building houses, roads, bridges, or offices, they build things on a computer. 
+                We use special instructions that a computer can understand called code to make websites, apps, and even games work. 
+                Computers don't understand normal language like we do, they use a language called binary to talk. 
+                Binary is a bunch of ones and zeros in a certain order that mean different things.</p>
+            <h1>What do I like about my job?</h1>
+            <p>There are many things that I like about my job. Some of them are:</p>
+            <ul id="likes-list">
+                <li>I get to work remotely, which means I usually get to stay home and hang out with my cats while I work. But I can actually work from anywhere there is an internet connection.</li>
+                <li>I get to build things that can help people in many different ways. I've worked on websites for the US government, medical robots that help give medicine, and even games!</li>
+                <li>I'm always learning new things! There are lots of different technologies out there that need different types of software, so it never gets boring.</li>
+                <li>I love puzzles, and coding is just like solving a big puzzle. I get to figure out how different pieces can be used to solve a bigger problem.</li>
+            </ul>
+            <h1>Where can you go learn to code?</h1>
+            <p>There are many places where you can learn to code. 
+                I've been told there is a few that you already use at school during your STEM/STEAM classes like ScratchJr, Code.org, and Code Builder in Minecraft Education Edition.
+                There is even more places to learn to code, like these:</p>
+            <ul id="learn-list">
+            <li><a href="https://blockly.games/" target="_blank"><u>Blockly Games</u></a> - Learn computer programming skills with fun games.</li>
+            <li><a href="https://www.codemoji.com/" target="_blank"><u>Codemoji</u></a> - Learn to code with emojis!</li>
+            <li><a href="https://www.codemonkey.com/" target="_blank"><u>CodeMonkey</u></a> - Learn to code with a fun game.</li>
+            <li><a href="https://www.tynker.com/" target="_blank"><u>Tynker</u></a> - Learn to code with games and puzzles.</li>
+            <li><a href="https://www.kodable.com/" target="_blank"><u>Kodable</u></a> - Learn to code with games and puzzles.</li>
+            <li><a href="https://www.khanacademy.org/computing" target="_blank"><u>Khan Academy</u></a> - Learn to code with JavaScript and HTML/CSS.</li>
+            <li><a href="https://www.codecademy.com/" target="_blank"><u>Codecademy</u></a> - Learn to code interactively, for free.</li>
+            <li><a href="https://www.freecodecamp.org/" target="_blank"><u>freeCodeCamp</u></a> - Learn to code for free and help nonprofits.</li>
+        </ul>
+        </main>
+    )
 }
+
+export default Home
