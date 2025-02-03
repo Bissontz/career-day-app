@@ -30,8 +30,8 @@ const Home = () => {
             <li><a href="https://www.codemoji.com/" target="_blank"><u>Codemoji</u></a> - Learn to code with emojis!</li>
             <li><a href="https://www.codemonkey.com/" target="_blank"><u>CodeMonkey</u></a> - Learn to code with a fun game.</li>
             <li><a href="https://www.tynker.com/" target="_blank"><u>Tynker</u></a> - Learn to code with games and puzzles.</li>
-            <li><a href="https://www.kodable.com/" target="_blank"><u>Kodable</u></a> - Learn to code with games and puzzles.</li>
             <li><a href="https://www.khanacademy.org/computing" target="_blank"><u>Khan Academy</u></a> - Learn to code with JavaScript and HTML/CSS.</li>
+            <li><a href="https://www.kodable.com/" target="_blank"><u>Kodable</u></a> - Learn to code with games and puzzles.</li>
             <li><a href="https://www.codecademy.com/" target="_blank"><u>Codecademy</u></a> - Learn to code interactively, for free.</li>
             <li><a href="https://www.freecodecamp.org/" target="_blank"><u>freeCodeCamp</u></a> - Learn to code for free and help nonprofits.</li>
         </ul>
